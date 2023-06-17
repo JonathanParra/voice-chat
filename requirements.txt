@@ -2,3 +2,4 @@ gTTS
 pygame
 whisper
 ffmpeg
+subprocess
