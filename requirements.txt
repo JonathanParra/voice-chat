@@ -1,2 +1,4 @@
 gTTS
 pygame
+whisper
+ffmpeg
