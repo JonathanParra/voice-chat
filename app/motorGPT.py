@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'YOU-API-KEY'
 
 
 response = openai.Completion.create(
