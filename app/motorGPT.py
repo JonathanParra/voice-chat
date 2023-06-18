@@ -1,11 +1,11 @@
 import openai
 
-openai.api_key = 'TU_CLAVE_DE_API'
+openai.api_key = 'YOU-API-KEY'
 
 
 response = openai.Completion.create(
     engine='text-davinci-003',  # Modelo de lenguaje a utilizar (GPT-3)
-    prompt='Tu texto de entrada aquí',
+    prompt='nombrame cinco lenguajes de programación mas populares',
     max_tokens=100,  # Número máximo de tokens en la respuesta generada
     temperature=0.7,  # Controla la aleatoriedad de las respuestas generadas (0.2 - 1.0)
     n=1,  # Número de respuestas a generar

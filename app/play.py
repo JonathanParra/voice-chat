@@ -7,7 +7,7 @@ pygame.init()
 pygame.mixer.init()
 
 #carga archivo mp3.
-pygame.mixer.music.load("mp3/audio.wav")
+pygame.mixer.music.load("mp3/voice.mp3")
 
 pygame.mixer.music.play()
 
