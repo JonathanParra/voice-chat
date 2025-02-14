@@ -5,7 +5,7 @@ import openai
 from gtts import gTTS
 import pygame
 
-openai.api_key = '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'
+openai.api_key = '************'
 nombre_archivo = "mp3/audio.wav"
 duracion_grabacion = 10  # duración en segundos
 
