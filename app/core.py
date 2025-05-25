@@ -62,7 +62,7 @@ print(resultado_decodificado)
 #/////////////////////////////MOTORGPT///////////////////////////////////////////////
 
 
-openai.api_key = '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'
+openai.api_key = API_KEY
 
 
 response = openai.Completion.create(
