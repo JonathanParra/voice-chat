@@ -62,11 +62,11 @@ print(resultado_decodificado)
 #/////////////////////////////MOTORGPT///////////////////////////////////////////////
 
 
-openai.api_key = 'YOU-API-KEY'
+openai.api_key = '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'
 
 
 response = openai.Completion.create(
-    engine='text-davinci-003',  # Modelo de lenguaje a utilizar (GPT-3)
+    engine='gpt-4o-mini',  # Modelo de lenguaje a utilizar (GPT-3)
     prompt=resultado_decodificado,
     max_tokens=100,  # Número máximo de tokens en la respuesta generada
     temperature=0.7,  # Controla la aleatoriedad de las respuestas generadas (0.2 - 1.0)
