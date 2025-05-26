@@ -4,6 +4,10 @@ import subprocess
 import openai
 from gtts import gTTS
 import pygame
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def grabar_audio(nombre_archivo, duracion):
     CHUNK = 1024
@@ -62,8 +66,7 @@ print(resultado_decodificado)
 #/////////////////////////////MOTORGPT///////////////////////////////////////////////
 
 
-openai.api_key = API_KEY
-
+openai.api_key = os.getenv("OPENIA-KEY")
 
 response = openai.Completion.create(
     engine='gpt-4o-mini',  # Modelo de lenguaje a utilizar (GPT-3)
