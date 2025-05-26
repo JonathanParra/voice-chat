@@ -4,8 +4,13 @@ import subprocess
 import openai
 from gtts import gTTS
 import pygame
+import os
+from dotenv import load_dotenv
 
-openai.api_key = '************'
+
+load_dotenv()
+
+openai.api_key = os.getenv("OPENIA-KEY") 
 nombre_archivo = "mp3/audio.wav"
 duracion_grabacion = 10  # duración en segundos
 
